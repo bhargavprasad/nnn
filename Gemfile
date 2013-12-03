@@ -23,7 +23,7 @@ gem "twitter-bootstrap-rails"
 
   gem 'uglifier', '>= 1.0.3'
 end
- 
+ gem 'rails_12factor'
  group :production do
   gem 'pg'
   gem 'therubyracer', :platforms => :ruby
