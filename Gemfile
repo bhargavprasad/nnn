@@ -23,11 +23,11 @@ gem "twitter-bootstrap-rails"
 
   gem 'uglifier', '>= 1.0.3'
 end
- group :development, :test do
-  gem 'mysql2'
-end
-group :production do
+ 
+ group :production do
   gem 'pg'
+  gem 'therubyracer', :platforms => :ruby
+
 end
 
 gem 'jquery-rails'
